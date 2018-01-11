@@ -1,4 +1,4 @@
-package com.nisum;
+package com.nisum.employee.controller;
 
 import java.util.List;
 
@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-import com.nisum.Dao;
+
+import com.nisum.employee.Dao.Dao;
+import com.nisum.employee.entity.Employee;
 
 @Controller
 public class HelloController {

@@ -1,4 +1,4 @@
-package com.nisum;
+package com.nisum.employee.entity;
 
 public class Employee {
 	private int Id;
