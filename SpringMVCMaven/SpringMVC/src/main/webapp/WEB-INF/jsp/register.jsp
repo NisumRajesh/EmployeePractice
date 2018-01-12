@@ -1,5 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-    <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
         <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -7,6 +7,7 @@
             <link href="/SpringMVC/src/main/webapp/WEB-INF/css/logincss.css" type="text/css" rel="stylesheet" />
         </head>
         <body>
+       <div class="regForm">
             <form:form id="regForm" modelAttribute="emp" action="registerProcess" method="post">
                 <table align="center">
                     <tr>
@@ -67,5 +68,6 @@
                     
                 </table>
             </form:form>
+            </div>
         </body>
         </html>
